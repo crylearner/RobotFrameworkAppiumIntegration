@@ -12,3 +12,6 @@ An integration for RobtFramework and Appium, to support off-line installation wi
 
 
 目前是以python3为基准，因为有一些库实际python3不一定稳定，所以实际可能有意外结果。
+
+使用方法：
+双击执行install.bat，运行成功提示install success； 运行失败提示install failed。

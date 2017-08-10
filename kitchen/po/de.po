@@ -1,0 +1,44 @@
+# Translations template for PROJECT.
+# Copyright (C) 2014 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# 
+# Translators:
+# Christoph Scheid <c@shri.de>, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: Kitchen: Miscellaneous, useful  python code\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2014-11-13 10:14-0500\n"
+"PO-Revision-Date: 2014-11-13 18:19+0000\n"
+"Last-Translator: Ralph Bean <rbean@redhat.com>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/kitchen/language/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: kitchen2/kitchen/release.py:9 kitchen3/kitchen/release.py:9
+msgid "Kitchen contains a cornucopia of useful code"
+msgstr "Kitchen ist ein Füllhorn voller nützlichem Code."
+
+#: kitchen2/kitchen/release.py:10 kitchen3/kitchen/release.py:10
+msgid ""
+"\n"
+"We've all done it.  In the process of writing a brand new application we've\n"
+"discovered that we need a little bit of code that we've invented before.\n"
+"Perhaps it's something to handle unicode text.  Perhaps it's something to make\n"
+"a bit of python-2.5 code run on python-2.3.  Whatever it is, it ends up being\n"
+"a tiny bit of code that seems too small to worry about pushing into its own\n"
+"module so it sits there, a part of your current project, waiting to be cut and\n"
+"pasted into your next project.  And the next.  And the next.  And since that\n"
+"little bittybit of code proved so useful to you, it's highly likely that it\n"
+"proved useful to someone else as well.  Useful enough that they've written it\n"
+"and copy and pasted it over and over into each of their new projects.\n"
+"\n"
+"Well, no longer!  Kitchen aims to pull these small snippets of code into a few\n"
+"python modules which you can import and use within your project.  No more copy\n"
+"and paste!  Now you can let someone else maintain and release these small\n"
+"snippets so that you can get on with your life.\n"
+msgstr ""

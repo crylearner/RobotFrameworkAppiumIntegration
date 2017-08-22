@@ -11,7 +11,7 @@ cd %curr_path%\%%p && python setup.py install
 if %ERRORLEVEL% equ 1 echo install failed & GOTO EXIT_LABLE
 )
 
-pip install wxPython-4.0.0b1-cp27-cp27m-win_amd64.whl
+pip install wxPython-4.0.0b1-cp36-cp36m-win_amd64.whl
 echo install success
 :EXIT_LABLE
 pause
